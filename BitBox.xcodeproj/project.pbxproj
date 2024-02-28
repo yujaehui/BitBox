@@ -23,6 +23,10 @@
 		095AFA122D55DF540078FD15 /* ColorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA112D55DF540078FD15 /* ColorStyle.swift */; };
 		095AFA152D55DF8B0078FD15 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA142D55DF8B0078FD15 /* UIColor+Extension.swift */; };
 		095AFA172D55DFB50078FD15 /* ImageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA162D55DFB50078FD15 /* ImageStyle.swift */; };
+		095AFA1A2D55E1250078FD15 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA192D55E1250078FD15 /* BaseViewController.swift */; };
+		095AFA1C2D55E1510078FD15 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA1B2D55E1510078FD15 /* BaseTableViewCell.swift */; };
+		095AFA1E2D55E16C0078FD15 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA1D2D55E16C0078FD15 /* BaseCollectionViewCell.swift */; };
+		095AFA202D55E1870078FD15 /* BaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA1F2D55E1870078FD15 /* BaseCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		095AFA112D55DF540078FD15 /* ColorStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStyle.swift; sourceTree = "<group>"; };
 		095AFA142D55DF8B0078FD15 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		095AFA162D55DFB50078FD15 /* ImageStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStyle.swift; sourceTree = "<group>"; };
+		095AFA192D55E1250078FD15 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		095AFA1B2D55E1510078FD15 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		095AFA1D2D55E16C0078FD15 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		095AFA1F2D55E1870078FD15 /* BaseCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,7 @@
 		095AF9D02D55D69E0078FD15 /* BitBox */ = {
 			isa = PBXGroup;
 			children = (
+				095AFA182D55E11E0078FD15 /* Base */,
 				095AFA132D55DF740078FD15 /* Extension */,
 				095AFA102D55DF440078FD15 /* DesignSystem */,
 				095AF9D12D55D69E0078FD15 /* AppDelegate.swift */,
@@ -104,6 +113,17 @@
 				095AFA142D55DF8B0078FD15 /* UIColor+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		095AFA182D55E11E0078FD15 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				095AFA192D55E1250078FD15 /* BaseViewController.swift */,
+				095AFA1B2D55E1510078FD15 /* BaseTableViewCell.swift */,
+				095AFA1D2D55E16C0078FD15 /* BaseCollectionViewCell.swift */,
+				095AFA1F2D55E1870078FD15 /* BaseCollectionReusableView.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,11 +214,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095AFA1C2D55E1510078FD15 /* BaseTableViewCell.swift in Sources */,
 				095AF9D62D55D69E0078FD15 /* ViewController.swift in Sources */,
+				095AFA1E2D55E16C0078FD15 /* BaseCollectionViewCell.swift in Sources */,
 				095AF9D22D55D69E0078FD15 /* AppDelegate.swift in Sources */,
 				095AF9D42D55D69E0078FD15 /* SceneDelegate.swift in Sources */,
 				095AFA172D55DFB50078FD15 /* ImageStyle.swift in Sources */,
+				095AFA202D55E1870078FD15 /* BaseCollectionReusableView.swift in Sources */,
 				095AFA122D55DF540078FD15 /* ColorStyle.swift in Sources */,
+				095AFA1A2D55E1250078FD15 /* BaseViewController.swift in Sources */,
 				095AFA152D55DF8B0078FD15 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
