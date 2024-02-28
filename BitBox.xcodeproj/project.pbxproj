@@ -33,6 +33,8 @@
 		095AFA2C2D55E43F0078FD15 /* TrendCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA2B2D55E43F0078FD15 /* TrendCoin.swift */; };
 		095AFA2E2D55E4790078FD15 /* CoinAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA2D2D55E4790078FD15 /* CoinAPI.swift */; };
 		095AFA302D55E4950078FD15 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA2F2D55E4950078FD15 /* APIService.swift */; };
+		095AFA332D55E5820078FD15 /* FavoriteCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA322D55E5820078FD15 /* FavoriteCoin.swift */; };
+		095AFA352D55E5AB0078FD15 /* FavoriteCoinRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA342D55E5AB0078FD15 /* FavoriteCoinRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +59,8 @@
 		095AFA2B2D55E43F0078FD15 /* TrendCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendCoin.swift; sourceTree = "<group>"; };
 		095AFA2D2D55E4790078FD15 /* CoinAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinAPI.swift; sourceTree = "<group>"; };
 		095AFA2F2D55E4950078FD15 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		095AFA322D55E5820078FD15 /* FavoriteCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCoin.swift; sourceTree = "<group>"; };
+		095AFA342D55E5AB0078FD15 /* FavoriteCoinRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCoinRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 		095AF9D02D55D69E0078FD15 /* BitBox */ = {
 			isa = PBXGroup;
 			children = (
+				095AFA312D55E5730078FD15 /* Realm */,
 				095AFA252D55E3930078FD15 /* Network */,
 				095AFA182D55E11E0078FD15 /* Base */,
 				095AFA132D55DF740078FD15 /* Extension */,
@@ -158,6 +163,15 @@
 				095AFA2B2D55E43F0078FD15 /* TrendCoin.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		095AFA312D55E5730078FD15 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				095AFA322D55E5820078FD15 /* FavoriteCoin.swift */,
+				095AFA342D55E5AB0078FD15 /* FavoriteCoinRepository.swift */,
+			);
+			path = Realm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,10 +269,12 @@
 				095AF9D22D55D69E0078FD15 /* AppDelegate.swift in Sources */,
 				095AF9D42D55D69E0078FD15 /* SceneDelegate.swift in Sources */,
 				095AFA302D55E4950078FD15 /* APIService.swift in Sources */,
+				095AFA332D55E5820078FD15 /* FavoriteCoin.swift in Sources */,
 				095AFA172D55DFB50078FD15 /* ImageStyle.swift in Sources */,
 				095AFA2E2D55E4790078FD15 /* CoinAPI.swift in Sources */,
 				095AFA2A2D55E4210078FD15 /* MarketCoin.swift in Sources */,
 				095AFA202D55E1870078FD15 /* BaseCollectionReusableView.swift in Sources */,
+				095AFA352D55E5AB0078FD15 /* FavoriteCoinRepository.swift in Sources */,
 				095AFA122D55DF540078FD15 /* ColorStyle.swift in Sources */,
 				095AFA1A2D55E1250078FD15 /* BaseViewController.swift in Sources */,
 				095AFA282D55E3F70078FD15 /* SearchCoin.swift in Sources */,
