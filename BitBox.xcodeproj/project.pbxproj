@@ -20,6 +20,9 @@
 		095AFA062D55DD2F0078FD15 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 095AFA052D55DD2F0078FD15 /* Toast */; };
 		095AFA092D55DD370078FD15 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 095AFA082D55DD370078FD15 /* DGCharts */; };
 		095AFA0C2D55DD3D0078FD15 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 095AFA0B2D55DD3D0078FD15 /* SnapKit */; };
+		095AFA122D55DF540078FD15 /* ColorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA112D55DF540078FD15 /* ColorStyle.swift */; };
+		095AFA152D55DF8B0078FD15 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA142D55DF8B0078FD15 /* UIColor+Extension.swift */; };
+		095AFA172D55DFB50078FD15 /* ImageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA162D55DFB50078FD15 /* ImageStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		095AF9DA2D55D69F0078FD15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		095AF9DD2D55D69F0078FD15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		095AF9DF2D55D69F0078FD15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		095AFA112D55DF540078FD15 /* ColorStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStyle.swift; sourceTree = "<group>"; };
+		095AFA142D55DF8B0078FD15 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		095AFA162D55DFB50078FD15 /* ImageStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,8 @@
 		095AF9D02D55D69E0078FD15 /* BitBox */ = {
 			isa = PBXGroup;
 			children = (
+				095AFA132D55DF740078FD15 /* Extension */,
+				095AFA102D55DF440078FD15 /* DesignSystem */,
 				095AF9D12D55D69E0078FD15 /* AppDelegate.swift */,
 				095AF9D32D55D69E0078FD15 /* SceneDelegate.swift */,
 				095AF9D52D55D69E0078FD15 /* ViewController.swift */,
@@ -79,6 +87,23 @@
 				095AF9DF2D55D69F0078FD15 /* Info.plist */,
 			);
 			path = BitBox;
+			sourceTree = "<group>";
+		};
+		095AFA102D55DF440078FD15 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				095AFA112D55DF540078FD15 /* ColorStyle.swift */,
+				095AFA162D55DFB50078FD15 /* ImageStyle.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		095AFA132D55DF740078FD15 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				095AFA142D55DF8B0078FD15 /* UIColor+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +197,9 @@
 				095AF9D62D55D69E0078FD15 /* ViewController.swift in Sources */,
 				095AF9D22D55D69E0078FD15 /* AppDelegate.swift in Sources */,
 				095AF9D42D55D69E0078FD15 /* SceneDelegate.swift in Sources */,
+				095AFA172D55DFB50078FD15 /* ImageStyle.swift in Sources */,
+				095AFA122D55DF540078FD15 /* ColorStyle.swift in Sources */,
+				095AFA152D55DF8B0078FD15 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
