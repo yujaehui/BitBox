@@ -13,6 +13,13 @@
 		095AF9D92D55D69E0078FD15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095AF9D72D55D69E0078FD15 /* Main.storyboard */; };
 		095AF9DB2D55D69F0078FD15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095AF9DA2D55D69F0078FD15 /* Assets.xcassets */; };
 		095AF9DE2D55D69F0078FD15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095AF9DC2D55D69F0078FD15 /* LaunchScreen.storyboard */; };
+		095AF9FB2D55DD130078FD15 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 095AF9FA2D55DD130078FD15 /* Realm */; };
+		095AF9FD2D55DD130078FD15 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 095AF9FC2D55DD130078FD15 /* RealmSwift */; };
+		095AFA002D55DD1C0078FD15 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 095AF9FF2D55DD1C0078FD15 /* Alamofire */; };
+		095AFA032D55DD280078FD15 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 095AFA022D55DD280078FD15 /* Kingfisher */; };
+		095AFA062D55DD2F0078FD15 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 095AFA052D55DD2F0078FD15 /* Toast */; };
+		095AFA092D55DD370078FD15 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 095AFA082D55DD370078FD15 /* DGCharts */; };
+		095AFA0C2D55DD3D0078FD15 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 095AFA0B2D55DD3D0078FD15 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +38,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095AFA032D55DD280078FD15 /* Kingfisher in Frameworks */,
+				095AFA002D55DD1C0078FD15 /* Alamofire in Frameworks */,
+				095AF9FD2D55DD130078FD15 /* RealmSwift in Frameworks */,
+				095AFA0C2D55DD3D0078FD15 /* SnapKit in Frameworks */,
+				095AFA062D55DD2F0078FD15 /* Toast in Frameworks */,
+				095AFA092D55DD370078FD15 /* DGCharts in Frameworks */,
+				095AF9FB2D55DD130078FD15 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +97,15 @@
 			dependencies = (
 			);
 			name = BitBox;
+			packageProductDependencies = (
+				095AF9FA2D55DD130078FD15 /* Realm */,
+				095AF9FC2D55DD130078FD15 /* RealmSwift */,
+				095AF9FF2D55DD1C0078FD15 /* Alamofire */,
+				095AFA022D55DD280078FD15 /* Kingfisher */,
+				095AFA052D55DD2F0078FD15 /* Toast */,
+				095AFA082D55DD370078FD15 /* DGCharts */,
+				095AFA0B2D55DD3D0078FD15 /* SnapKit */,
+			);
 			productName = BitBox;
 			productReference = 095AF9CE2D55D69E0078FD15 /* BitBox.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +134,14 @@
 				Base,
 			);
 			mainGroup = 095AF9C52D55D69E0078FD15;
+			packageReferences = (
+				095AF9F92D55DD130078FD15 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				095AF9FE2D55DD1C0078FD15 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				095AFA012D55DD280078FD15 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				095AFA042D55DD2F0078FD15 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+				095AFA072D55DD370078FD15 /* XCRemoteSwiftPackageReference "Charts" */,
+				095AFA0A2D55DD3D0078FD15 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 095AF9CF2D55D69E0078FD15 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -363,6 +394,95 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		095AF9F92D55DD130078FD15 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.47.0;
+			};
+		};
+		095AF9FE2D55DD1C0078FD15 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		095AFA012D55DD280078FD15 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.2.0;
+			};
+		};
+		095AFA042D55DD2F0078FD15 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+		095AFA072D55DD370078FD15 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+		095AFA0A2D55DD3D0078FD15 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		095AF9FA2D55DD130078FD15 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 095AF9F92D55DD130078FD15 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		095AF9FC2D55DD130078FD15 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 095AF9F92D55DD130078FD15 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		095AF9FF2D55DD1C0078FD15 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 095AF9FE2D55DD1C0078FD15 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		095AFA022D55DD280078FD15 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 095AFA012D55DD280078FD15 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		095AFA052D55DD2F0078FD15 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 095AFA042D55DD2F0078FD15 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+		095AFA082D55DD370078FD15 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 095AFA072D55DD370078FD15 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+		095AFA0B2D55DD3D0078FD15 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 095AFA0A2D55DD3D0078FD15 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 095AF9C62D55D69E0078FD15 /* Project object */;
 }
