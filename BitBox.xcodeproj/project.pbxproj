@@ -28,6 +28,11 @@
 		095AFA1E2D55E16C0078FD15 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA1D2D55E16C0078FD15 /* BaseCollectionViewCell.swift */; };
 		095AFA202D55E1870078FD15 /* BaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA1F2D55E1870078FD15 /* BaseCollectionReusableView.swift */; };
 		095AFA222D55E2880078FD15 /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA212D55E2880078FD15 /* FontStyle.swift */; };
+		095AFA282D55E3F70078FD15 /* SearchCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA272D55E3F70078FD15 /* SearchCoin.swift */; };
+		095AFA2A2D55E4210078FD15 /* MarketCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA292D55E4210078FD15 /* MarketCoin.swift */; };
+		095AFA2C2D55E43F0078FD15 /* TrendCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA2B2D55E43F0078FD15 /* TrendCoin.swift */; };
+		095AFA2E2D55E4790078FD15 /* CoinAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA2D2D55E4790078FD15 /* CoinAPI.swift */; };
+		095AFA302D55E4950078FD15 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA2F2D55E4950078FD15 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +52,11 @@
 		095AFA1D2D55E16C0078FD15 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		095AFA1F2D55E1870078FD15 /* BaseCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionReusableView.swift; sourceTree = "<group>"; };
 		095AFA212D55E2880078FD15 /* FontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
+		095AFA272D55E3F70078FD15 /* SearchCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoin.swift; sourceTree = "<group>"; };
+		095AFA292D55E4210078FD15 /* MarketCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCoin.swift; sourceTree = "<group>"; };
+		095AFA2B2D55E43F0078FD15 /* TrendCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendCoin.swift; sourceTree = "<group>"; };
+		095AFA2D2D55E4790078FD15 /* CoinAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinAPI.swift; sourceTree = "<group>"; };
+		095AFA2F2D55E4950078FD15 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,7 @@
 		095AF9D02D55D69E0078FD15 /* BitBox */ = {
 			isa = PBXGroup;
 			children = (
+				095AFA252D55E3930078FD15 /* Network */,
 				095AFA182D55E11E0078FD15 /* Base */,
 				095AFA132D55DF740078FD15 /* Extension */,
 				095AFA102D55DF440078FD15 /* DesignSystem */,
@@ -127,6 +138,26 @@
 				095AFA1F2D55E1870078FD15 /* BaseCollectionReusableView.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		095AFA252D55E3930078FD15 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				095AFA2D2D55E4790078FD15 /* CoinAPI.swift */,
+				095AFA2F2D55E4950078FD15 /* APIService.swift */,
+				095AFA262D55E3A00078FD15 /* Model */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		095AFA262D55E3A00078FD15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				095AFA272D55E3F70078FD15 /* SearchCoin.swift */,
+				095AFA292D55E4210078FD15 /* MarketCoin.swift */,
+				095AFA2B2D55E43F0078FD15 /* TrendCoin.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,10 +254,15 @@
 				095AFA1E2D55E16C0078FD15 /* BaseCollectionViewCell.swift in Sources */,
 				095AF9D22D55D69E0078FD15 /* AppDelegate.swift in Sources */,
 				095AF9D42D55D69E0078FD15 /* SceneDelegate.swift in Sources */,
+				095AFA302D55E4950078FD15 /* APIService.swift in Sources */,
 				095AFA172D55DFB50078FD15 /* ImageStyle.swift in Sources */,
+				095AFA2E2D55E4790078FD15 /* CoinAPI.swift in Sources */,
+				095AFA2A2D55E4210078FD15 /* MarketCoin.swift in Sources */,
 				095AFA202D55E1870078FD15 /* BaseCollectionReusableView.swift in Sources */,
 				095AFA122D55DF540078FD15 /* ColorStyle.swift in Sources */,
 				095AFA1A2D55E1250078FD15 /* BaseViewController.swift in Sources */,
+				095AFA282D55E3F70078FD15 /* SearchCoin.swift in Sources */,
+				095AFA2C2D55E43F0078FD15 /* TrendCoin.swift in Sources */,
 				095AFA152D55DF8B0078FD15 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
