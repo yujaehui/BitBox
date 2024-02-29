@@ -38,6 +38,7 @@
 		095AFA382D55E64F0078FD15 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA372D55E64F0078FD15 /* CustomLabel.swift */; };
 		095AFA3A2D55E73C0078FD15 /* CustomCircleMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA392D55E73C0078FD15 /* CustomCircleMarker.swift */; };
 		095AFA3C2D55E7680078FD15 /* CustomChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA3B2D55E7680078FD15 /* CustomChartView.swift */; };
+		095AFA432D55E8720078FD15 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA422D55E8720078FD15 /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		095AFA372D55E64F0078FD15 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		095AFA392D55E73C0078FD15 /* CustomCircleMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleMarker.swift; sourceTree = "<group>"; };
 		095AFA3B2D55E7680078FD15 /* CustomChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChartView.swift; sourceTree = "<group>"; };
+		095AFA422D55E8720078FD15 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				095AF9DA2D55D69F0078FD15 /* Assets.xcassets */,
 				095AF9DC2D55D69F0078FD15 /* LaunchScreen.storyboard */,
 				095AF9DF2D55D69F0078FD15 /* Info.plist */,
+				095AFA422D55E8720078FD15 /* Observable.swift */,
 			);
 			path = BitBox;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095AFA432D55E8720078FD15 /* Observable.swift in Sources */,
 				095AFA1C2D55E1510078FD15 /* BaseTableViewCell.swift in Sources */,
 				095AFA222D55E2880078FD15 /* FontStyle.swift in Sources */,
 				095AFA3C2D55E7680078FD15 /* CustomChartView.swift in Sources */,
