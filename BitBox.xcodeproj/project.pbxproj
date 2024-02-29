@@ -36,6 +36,8 @@
 		095AFA332D55E5820078FD15 /* FavoriteCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA322D55E5820078FD15 /* FavoriteCoin.swift */; };
 		095AFA352D55E5AB0078FD15 /* FavoriteCoinRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA342D55E5AB0078FD15 /* FavoriteCoinRepository.swift */; };
 		095AFA382D55E64F0078FD15 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA372D55E64F0078FD15 /* CustomLabel.swift */; };
+		095AFA3A2D55E73C0078FD15 /* CustomCircleMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA392D55E73C0078FD15 /* CustomCircleMarker.swift */; };
+		095AFA3C2D55E7680078FD15 /* CustomChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA3B2D55E7680078FD15 /* CustomChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		095AFA322D55E5820078FD15 /* FavoriteCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCoin.swift; sourceTree = "<group>"; };
 		095AFA342D55E5AB0078FD15 /* FavoriteCoinRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCoinRepository.swift; sourceTree = "<group>"; };
 		095AFA372D55E64F0078FD15 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		095AFA392D55E73C0078FD15 /* CustomCircleMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleMarker.swift; sourceTree = "<group>"; };
+		095AFA3B2D55E7680078FD15 /* CustomChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +185,8 @@
 			isa = PBXGroup;
 			children = (
 				095AFA372D55E64F0078FD15 /* CustomLabel.swift */,
+				095AFA392D55E73C0078FD15 /* CustomCircleMarker.swift */,
+				095AFA3B2D55E7680078FD15 /* CustomChartView.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -275,6 +281,8 @@
 			files = (
 				095AFA1C2D55E1510078FD15 /* BaseTableViewCell.swift in Sources */,
 				095AFA222D55E2880078FD15 /* FontStyle.swift in Sources */,
+				095AFA3C2D55E7680078FD15 /* CustomChartView.swift in Sources */,
+				095AFA3A2D55E73C0078FD15 /* CustomCircleMarker.swift in Sources */,
 				095AFA382D55E64F0078FD15 /* CustomLabel.swift in Sources */,
 				095AF9D62D55D69E0078FD15 /* ViewController.swift in Sources */,
 				095AFA1E2D55E16C0078FD15 /* BaseCollectionViewCell.swift in Sources */,
