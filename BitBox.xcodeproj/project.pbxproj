@@ -44,6 +44,11 @@
 		095AFA4A2D55E9020078FD15 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA492D55E9020078FD15 /* SearchTableViewCell.swift */; };
 		095AFA4D2D55E9810078FD15 /* TextProcessingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA4C2D55E9810078FD15 /* TextProcessingManager.swift */; };
 		095AFA4F2D55E9C70078FD15 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA4E2D55E9C70078FD15 /* UIView+Extension.swift */; };
+		095AFA522D55EFB60078FD15 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA512D55EFB60078FD15 /* MarketViewController.swift */; };
+		095AFA542D55EFEE0078FD15 /* MarketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA532D55EFEE0078FD15 /* MarketViewModel.swift */; };
+		095AFA562D55F02E0078FD15 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA552D55F02E0078FD15 /* UIViewController+Extension.swift */; };
+		095AFA582D55F0840078FD15 /* NumberFormatterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA572D55F0840078FD15 /* NumberFormatterManager.swift */; };
+		095AFA5A2D55F0BA0078FD15 /* DateFormatterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA592D55F0BA0078FD15 /* DateFormatterManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +84,11 @@
 		095AFA492D55E9020078FD15 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		095AFA4C2D55E9810078FD15 /* TextProcessingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextProcessingManager.swift; sourceTree = "<group>"; };
 		095AFA4E2D55E9C70078FD15 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		095AFA512D55EFB60078FD15 /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
+		095AFA532D55EFEE0078FD15 /* MarketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewModel.swift; sourceTree = "<group>"; };
+		095AFA552D55F02E0078FD15 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		095AFA572D55F0840078FD15 /* NumberFormatterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatterManager.swift; sourceTree = "<group>"; };
+		095AFA592D55F0BA0078FD15 /* DateFormatterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +128,7 @@
 		095AF9D02D55D69E0078FD15 /* BitBox */ = {
 			isa = PBXGroup;
 			children = (
+				095AFA502D55EF9B0078FD15 /* Market */,
 				095AFA4B2D55E93D0078FD15 /* Manager */,
 				095AFA442D55E8DB0078FD15 /* Search */,
 				095AFA362D55E6400078FD15 /* Custom */,
@@ -153,6 +164,7 @@
 			children = (
 				095AFA142D55DF8B0078FD15 /* UIColor+Extension.swift */,
 				095AFA4E2D55E9C70078FD15 /* UIView+Extension.swift */,
+				095AFA552D55F02E0078FD15 /* UIViewController+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -221,8 +233,19 @@
 			isa = PBXGroup;
 			children = (
 				095AFA4C2D55E9810078FD15 /* TextProcessingManager.swift */,
+				095AFA572D55F0840078FD15 /* NumberFormatterManager.swift */,
+				095AFA592D55F0BA0078FD15 /* DateFormatterManager.swift */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		095AFA502D55EF9B0078FD15 /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				095AFA512D55EFB60078FD15 /* MarketViewController.swift */,
+				095AFA532D55EFEE0078FD15 /* MarketViewModel.swift */,
+			);
+			path = Market;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,8 +338,10 @@
 			files = (
 				095AFA432D55E8720078FD15 /* Observable.swift in Sources */,
 				095AFA1C2D55E1510078FD15 /* BaseTableViewCell.swift in Sources */,
+				095AFA5A2D55F0BA0078FD15 /* DateFormatterManager.swift in Sources */,
 				095AFA222D55E2880078FD15 /* FontStyle.swift in Sources */,
 				095AFA3C2D55E7680078FD15 /* CustomChartView.swift in Sources */,
+				095AFA582D55F0840078FD15 /* NumberFormatterManager.swift in Sources */,
 				095AFA3A2D55E73C0078FD15 /* CustomCircleMarker.swift in Sources */,
 				095AFA382D55E64F0078FD15 /* CustomLabel.swift in Sources */,
 				095AF9D62D55D69E0078FD15 /* ViewController.swift in Sources */,
@@ -331,8 +356,11 @@
 				095AFA2E2D55E4790078FD15 /* CoinAPI.swift in Sources */,
 				095AFA2A2D55E4210078FD15 /* MarketCoin.swift in Sources */,
 				095AFA202D55E1870078FD15 /* BaseCollectionReusableView.swift in Sources */,
+				095AFA562D55F02E0078FD15 /* UIViewController+Extension.swift in Sources */,
 				095AFA352D55E5AB0078FD15 /* FavoriteCoinRepository.swift in Sources */,
 				095AFA482D55E8EE0078FD15 /* SearchViewModel.swift in Sources */,
+				095AFA522D55EFB60078FD15 /* MarketViewController.swift in Sources */,
+				095AFA542D55EFEE0078FD15 /* MarketViewModel.swift in Sources */,
 				095AFA4D2D55E9810078FD15 /* TextProcessingManager.swift in Sources */,
 				095AFA4A2D55E9020078FD15 /* SearchTableViewCell.swift in Sources */,
 				095AFA122D55DF540078FD15 /* ColorStyle.swift in Sources */,
