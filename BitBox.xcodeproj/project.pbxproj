@@ -49,6 +49,9 @@
 		095AFA562D55F02E0078FD15 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA552D55F02E0078FD15 /* UIViewController+Extension.swift */; };
 		095AFA582D55F0840078FD15 /* NumberFormatterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA572D55F0840078FD15 /* NumberFormatterManager.swift */; };
 		095AFA5A2D55F0BA0078FD15 /* DateFormatterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA592D55F0BA0078FD15 /* DateFormatterManager.swift */; };
+		095AFA5D2D55F5E00078FD15 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA5C2D55F5E00078FD15 /* FavoriteViewController.swift */; };
+		095AFA5F2D55F5EA0078FD15 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA5E2D55F5EA0078FD15 /* FavoriteViewModel.swift */; };
+		095AFA612D55F5F80078FD15 /* FavoriteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA602D55F5F80078FD15 /* FavoriteCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +92,9 @@
 		095AFA552D55F02E0078FD15 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		095AFA572D55F0840078FD15 /* NumberFormatterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatterManager.swift; sourceTree = "<group>"; };
 		095AFA592D55F0BA0078FD15 /* DateFormatterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterManager.swift; sourceTree = "<group>"; };
+		095AFA5C2D55F5E00078FD15 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		095AFA5E2D55F5EA0078FD15 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
+		095AFA602D55F5F80078FD15 /* FavoriteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,7 @@
 		095AF9D02D55D69E0078FD15 /* BitBox */ = {
 			isa = PBXGroup;
 			children = (
+				095AFA5B2D55F5C80078FD15 /* Favorite */,
 				095AFA502D55EF9B0078FD15 /* Market */,
 				095AFA4B2D55E93D0078FD15 /* Manager */,
 				095AFA442D55E8DB0078FD15 /* Search */,
@@ -248,6 +255,16 @@
 			path = Market;
 			sourceTree = "<group>";
 		};
+		095AFA5B2D55F5C80078FD15 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				095AFA5C2D55F5E00078FD15 /* FavoriteViewController.swift */,
+				095AFA5E2D55F5EA0078FD15 /* FavoriteViewModel.swift */,
+				095AFA602D55F5F80078FD15 /* FavoriteCollectionViewCell.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -340,6 +357,7 @@
 				095AFA1C2D55E1510078FD15 /* BaseTableViewCell.swift in Sources */,
 				095AFA5A2D55F0BA0078FD15 /* DateFormatterManager.swift in Sources */,
 				095AFA222D55E2880078FD15 /* FontStyle.swift in Sources */,
+				095AFA612D55F5F80078FD15 /* FavoriteCollectionViewCell.swift in Sources */,
 				095AFA3C2D55E7680078FD15 /* CustomChartView.swift in Sources */,
 				095AFA582D55F0840078FD15 /* NumberFormatterManager.swift in Sources */,
 				095AFA3A2D55E73C0078FD15 /* CustomCircleMarker.swift in Sources */,
@@ -358,6 +376,7 @@
 				095AFA202D55E1870078FD15 /* BaseCollectionReusableView.swift in Sources */,
 				095AFA562D55F02E0078FD15 /* UIViewController+Extension.swift in Sources */,
 				095AFA352D55E5AB0078FD15 /* FavoriteCoinRepository.swift in Sources */,
+				095AFA5D2D55F5E00078FD15 /* FavoriteViewController.swift in Sources */,
 				095AFA482D55E8EE0078FD15 /* SearchViewModel.swift in Sources */,
 				095AFA522D55EFB60078FD15 /* MarketViewController.swift in Sources */,
 				095AFA542D55EFEE0078FD15 /* MarketViewModel.swift in Sources */,
@@ -365,6 +384,7 @@
 				095AFA4A2D55E9020078FD15 /* SearchTableViewCell.swift in Sources */,
 				095AFA122D55DF540078FD15 /* ColorStyle.swift in Sources */,
 				095AFA1A2D55E1250078FD15 /* BaseViewController.swift in Sources */,
+				095AFA5F2D55F5EA0078FD15 /* FavoriteViewModel.swift in Sources */,
 				095AFA282D55E3F70078FD15 /* SearchCoin.swift in Sources */,
 				095AFA2C2D55E43F0078FD15 /* TrendCoin.swift in Sources */,
 				095AFA152D55DF8B0078FD15 /* UIColor+Extension.swift in Sources */,
