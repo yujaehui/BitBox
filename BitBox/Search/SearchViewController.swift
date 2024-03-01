@@ -49,10 +49,9 @@ class SearchViewController: BaseViewController {
         
         viewModel.DidSelectRowAt.bind { [weak self] value in
             guard let value = value else { return }
-            //TODO: MarketViewController로 Transition
-//            let vc = MarketViewController()
-//            vc.viewModel.inputMarket.value = value // 여기서 value는 id
-//            self?.navigationController?.pushViewController(vc, animated: true)
+            let vc = MarketViewController()
+            vc.viewModel.inputMarket.value = value // 여기서 value는 id
+            self?.navigationController?.pushViewController(vc, animated: true)
         }
     }
     
