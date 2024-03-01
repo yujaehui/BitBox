@@ -52,6 +52,7 @@
 		095AFA5D2D55F5E00078FD15 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA5C2D55F5E00078FD15 /* FavoriteViewController.swift */; };
 		095AFA5F2D55F5EA0078FD15 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA5E2D55F5EA0078FD15 /* FavoriteViewModel.swift */; };
 		095AFA612D55F5F80078FD15 /* FavoriteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA602D55F5F80078FD15 /* FavoriteCollectionViewCell.swift */; };
+		095AFA652D55FA640078FD15 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA642D55FA640078FD15 /* Section.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +96,7 @@
 		095AFA5C2D55F5E00078FD15 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		095AFA5E2D55F5EA0078FD15 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
 		095AFA602D55F5F80078FD15 /* FavoriteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCollectionViewCell.swift; sourceTree = "<group>"; };
+		095AFA642D55FA640078FD15 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		095AF9D02D55D69E0078FD15 /* BitBox */ = {
 			isa = PBXGroup;
 			children = (
+				095AFA622D55FA3A0078FD15 /* Trend */,
 				095AFA5B2D55F5C80078FD15 /* Favorite */,
 				095AFA502D55EF9B0078FD15 /* Market */,
 				095AFA4B2D55E93D0078FD15 /* Manager */,
@@ -265,6 +268,22 @@
 			path = Favorite;
 			sourceTree = "<group>";
 		};
+		095AFA622D55FA3A0078FD15 /* Trend */ = {
+			isa = PBXGroup;
+			children = (
+				095AFA632D55FA5C0078FD15 /* Section */,
+			);
+			path = Trend;
+			sourceTree = "<group>";
+		};
+		095AFA632D55FA5C0078FD15 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				095AFA642D55FA640078FD15 /* Section.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -362,6 +381,7 @@
 				095AFA582D55F0840078FD15 /* NumberFormatterManager.swift in Sources */,
 				095AFA3A2D55E73C0078FD15 /* CustomCircleMarker.swift in Sources */,
 				095AFA382D55E64F0078FD15 /* CustomLabel.swift in Sources */,
+				095AFA652D55FA640078FD15 /* Section.swift in Sources */,
 				095AF9D62D55D69E0078FD15 /* ViewController.swift in Sources */,
 				095AFA1E2D55E16C0078FD15 /* BaseCollectionViewCell.swift in Sources */,
 				095AF9D22D55D69E0078FD15 /* AppDelegate.swift in Sources */,
