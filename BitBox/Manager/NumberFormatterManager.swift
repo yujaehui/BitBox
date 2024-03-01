@@ -13,17 +13,6 @@ class NumberFormatterManager {
     
     let formatter = NumberFormatter()
     
-    func priceFormatter(_ price: Double) -> String {
-        let price = round(price)
-        formatter.numberStyle = .currency
-        formatter.locale = Locale.current
-        if let formattedAmount = formatter.string(from: NSNumber(value: price)) {
-            return formattedAmount
-        } else {
-            return "\(price)"
-        }
-    }
-    
     func dollarFormatter(_ price: Double) -> String {
         formatter.numberStyle = .currency
         formatter.locale = Locale(identifier: "en_US") // 미국 달러
