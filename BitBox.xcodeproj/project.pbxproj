@@ -62,6 +62,8 @@
 		095AFA752D55FC720078FD15 /* MyFavoriteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA742D55FC720078FD15 /* MyFavoriteCollectionViewCell.swift */; };
 		095AFA772D55FCA20078FD15 /* Top15CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA762D55FCA20078FD15 /* Top15CollectionViewCell.swift */; };
 		095AFA792D55FCB30078FD15 /* Top7CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA782D55FCB30078FD15 /* Top7CollectionViewCell.swift */; };
+		095AFA7B2D55FD760078FD15 /* TrendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA7A2D55FD760078FD15 /* TrendViewController.swift */; };
+		095AFA7D2D55FD8C0078FD15 /* TrendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA7C2D55FD8C0078FD15 /* TrendViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -115,6 +117,8 @@
 		095AFA742D55FC720078FD15 /* MyFavoriteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavoriteCollectionViewCell.swift; sourceTree = "<group>"; };
 		095AFA762D55FCA20078FD15 /* Top15CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top15CollectionViewCell.swift; sourceTree = "<group>"; };
 		095AFA782D55FCB30078FD15 /* Top7CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top7CollectionViewCell.swift; sourceTree = "<group>"; };
+		095AFA7A2D55FD760078FD15 /* TrendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewController.swift; sourceTree = "<group>"; };
+		095AFA7C2D55FD8C0078FD15 /* TrendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,6 +296,8 @@
 				095AFA712D55FC470078FD15 /* Cell */,
 				095AFA6E2D55FBDB0078FD15 /* Header */,
 				095AFA632D55FA5C0078FD15 /* Section */,
+				095AFA7A2D55FD760078FD15 /* TrendViewController.swift */,
+				095AFA7C2D55FD8C0078FD15 /* TrendViewModel.swift */,
 			);
 			path = Trend;
 			sourceTree = "<group>";
@@ -435,6 +441,7 @@
 				095AFA732D55FC570078FD15 /* EmptyCollectionViewCell.swift in Sources */,
 				095AFA4F2D55E9C70078FD15 /* UIView+Extension.swift in Sources */,
 				095AFA172D55DFB50078FD15 /* ImageStyle.swift in Sources */,
+				095AFA7D2D55FD8C0078FD15 /* TrendViewModel.swift in Sources */,
 				095AFA462D55E8E50078FD15 /* SearchViewController.swift in Sources */,
 				095AFA772D55FCA20078FD15 /* Top15CollectionViewCell.swift in Sources */,
 				095AFA702D55FBEE0078FD15 /* HeaderCollectionReusableView.swift in Sources */,
@@ -457,6 +464,7 @@
 				095AFA5F2D55F5EA0078FD15 /* FavoriteViewModel.swift in Sources */,
 				095AFA282D55E3F70078FD15 /* SearchCoin.swift in Sources */,
 				095AFA2C2D55E43F0078FD15 /* TrendCoin.swift in Sources */,
+				095AFA7B2D55FD760078FD15 /* TrendViewController.swift in Sources */,
 				095AFA672D55FAFB0078FD15 /* EmptySection.swift in Sources */,
 				095AFA152D55DF8B0078FD15 /* UIColor+Extension.swift in Sources */,
 				095AFA692D55FB180078FD15 /* FavoriteSection.swift in Sources */,
