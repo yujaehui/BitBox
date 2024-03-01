@@ -64,6 +64,7 @@
 		095AFA792D55FCB30078FD15 /* Top7CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA782D55FCB30078FD15 /* Top7CollectionViewCell.swift */; };
 		095AFA7B2D55FD760078FD15 /* TrendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA7A2D55FD760078FD15 /* TrendViewController.swift */; };
 		095AFA7D2D55FD8C0078FD15 /* TrendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA7C2D55FD8C0078FD15 /* TrendViewModel.swift */; };
+		095AFA802D5600B90078FD15 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA7F2D5600B90078FD15 /* UserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -119,6 +120,7 @@
 		095AFA782D55FCB30078FD15 /* Top7CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top7CollectionViewCell.swift; sourceTree = "<group>"; };
 		095AFA7A2D55FD760078FD15 /* TrendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewController.swift; sourceTree = "<group>"; };
 		095AFA7C2D55FD8C0078FD15 /* TrendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewModel.swift; sourceTree = "<group>"; };
+		095AFA7F2D5600B90078FD15 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 		095AF9D02D55D69E0078FD15 /* BitBox */ = {
 			isa = PBXGroup;
 			children = (
+				095AFA7E2D5600B20078FD15 /* User */,
 				095AFA622D55FA3A0078FD15 /* Trend */,
 				095AFA5B2D55F5C80078FD15 /* Favorite */,
 				095AFA502D55EF9B0078FD15 /* Market */,
@@ -333,6 +336,14 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		095AFA7E2D5600B20078FD15 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				095AFA7F2D5600B90078FD15 /* UserViewController.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -422,6 +433,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				095AFA432D55E8720078FD15 /* Observable.swift in Sources */,
+				095AFA802D5600B90078FD15 /* UserViewController.swift in Sources */,
 				095AFA1C2D55E1510078FD15 /* BaseTableViewCell.swift in Sources */,
 				095AFA792D55FCB30078FD15 /* Top7CollectionViewCell.swift in Sources */,
 				095AFA5A2D55F0BA0078FD15 /* DateFormatterManager.swift in Sources */,

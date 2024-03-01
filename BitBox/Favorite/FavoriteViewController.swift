@@ -96,9 +96,8 @@ class FavoriteViewController: BaseViewController {
     }
     
     @objc func rightBarButtonClicked() {
-        //TODO: UserViewController로 Transition
-//        let vc = UserViewController()
-//        self?.navigationController?.pushViewController(vc, animated: true)
+        let vc = UserViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
 
