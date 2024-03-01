@@ -57,6 +57,7 @@
 		095AFA692D55FB180078FD15 /* FavoriteSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA682D55FB180078FD15 /* FavoriteSection.swift */; };
 		095AFA6B2D55FB390078FD15 /* Top15Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA6A2D55FB390078FD15 /* Top15Section.swift */; };
 		095AFA6D2D55FB4D0078FD15 /* Top7Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA6C2D55FB4D0078FD15 /* Top7Section.swift */; };
+		095AFA702D55FBEE0078FD15 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA6F2D55FBEE0078FD15 /* HeaderCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -105,6 +106,7 @@
 		095AFA682D55FB180078FD15 /* FavoriteSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteSection.swift; sourceTree = "<group>"; };
 		095AFA6A2D55FB390078FD15 /* Top15Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top15Section.swift; sourceTree = "<group>"; };
 		095AFA6C2D55FB4D0078FD15 /* Top7Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top7Section.swift; sourceTree = "<group>"; };
+		095AFA6F2D55FBEE0078FD15 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +281,7 @@
 		095AFA622D55FA3A0078FD15 /* Trend */ = {
 			isa = PBXGroup;
 			children = (
+				095AFA6E2D55FBDB0078FD15 /* Header */,
 				095AFA632D55FA5C0078FD15 /* Section */,
 			);
 			path = Trend;
@@ -294,6 +297,14 @@
 				095AFA6C2D55FB4D0078FD15 /* Top7Section.swift */,
 			);
 			path = Section;
+			sourceTree = "<group>";
+		};
+		095AFA6E2D55FBDB0078FD15 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				095AFA6F2D55FBEE0078FD15 /* HeaderCollectionReusableView.swift */,
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,6 +414,7 @@
 				095AFA4F2D55E9C70078FD15 /* UIView+Extension.swift in Sources */,
 				095AFA172D55DFB50078FD15 /* ImageStyle.swift in Sources */,
 				095AFA462D55E8E50078FD15 /* SearchViewController.swift in Sources */,
+				095AFA702D55FBEE0078FD15 /* HeaderCollectionReusableView.swift in Sources */,
 				095AFA2E2D55E4790078FD15 /* CoinAPI.swift in Sources */,
 				095AFA2A2D55E4210078FD15 /* MarketCoin.swift in Sources */,
 				095AFA202D55E1870078FD15 /* BaseCollectionReusableView.swift in Sources */,
