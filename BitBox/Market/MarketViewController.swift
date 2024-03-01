@@ -236,10 +236,7 @@ class MarketViewController: BaseViewController {
         navigationItem.largeTitleDisplayMode = .never
         navigationController?.navigationBar.tintColor = ColorStyle.purple
         
-        // 현재 상태와 비교하여 불필요한 업데이트 방지
-        if viewModel.inputSetNavigationBar.value != viewModel.outputCoinID.value {
-            viewModel.inputSetNavigationBar.value = viewModel.outputCoinID.value
-        }
+        viewModel.inputSetNavigationBar.value = viewModel.outputCoinID.value
         
         var image: UIImage = ImageStyle.star
         image = viewModel.outputSetNavigationBar.value ? ImageStyle.starFill : ImageStyle.star
