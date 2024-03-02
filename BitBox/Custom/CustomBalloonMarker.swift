@@ -10,19 +10,19 @@ import DGCharts
 import UIKit
 
 class CustomBalloonMarker: MarkerImage {
-    @objc open var color: UIColor
-    @objc open var arrowSize = CGSize(width: 15, height: 11)
-    @objc open var font: UIFont
-    @objc open var textColor: UIColor
-    @objc open var insets: UIEdgeInsets
-    @objc open var minimumSize = CGSize()
+    var color: UIColor
+    var arrowSize = CGSize(width: 15, height: 11)
+    var font: UIFont
+    var textColor: UIColor
+    var insets: UIEdgeInsets
+    var minimumSize = CGSize()
     
-    fileprivate var label: String?
-    fileprivate var _labelSize: CGSize = CGSize()
-    fileprivate var _paragraphStyle: NSMutableParagraphStyle?
-    fileprivate var _drawAttributes = [NSAttributedString.Key : Any]()
+    var label: String?
+    var _labelSize: CGSize = CGSize()
+    var _paragraphStyle: NSMutableParagraphStyle?
+    var _drawAttributes = [NSAttributedString.Key : Any]()
     
-    @objc public init(color: UIColor, font: UIFont, textColor: UIColor, insets: UIEdgeInsets) {
+    init(color: UIColor, font: UIFont, textColor: UIColor, insets: UIEdgeInsets) {
         self.color = color
         self.font = font
         self.textColor = textColor
@@ -33,7 +33,7 @@ class CustomBalloonMarker: MarkerImage {
         super.init()
     }
     
-    open override func offsetForDrawing(atPoint point: CGPoint) -> CGPoint {
+    override func offsetForDrawing(atPoint point: CGPoint) -> CGPoint {
         var offset = self.offset
         var size = self.size
 
@@ -72,7 +72,7 @@ class CustomBalloonMarker: MarkerImage {
         return offset
     }
     
-    open override func draw(context: CGContext, point: CGPoint) {
+    override func draw(context: CGContext, point: CGPoint) {
         guard let label = label else { return }
         
         let offset = self.offsetForDrawing(atPoint: point)
@@ -165,11 +165,11 @@ class CustomBalloonMarker: MarkerImage {
         context.restoreGState()
     }
     
-    open override func refreshContent(entry: ChartDataEntry, highlight: Highlight) {
+    override func refreshContent(entry: ChartDataEntry, highlight: Highlight) {
         setLabel(NumberFormatterManager.shared.dollarFormatter(entry.y))
     }
     
-    @objc open func setLabel(_ newLabel: String) {
+    @objc func setLabel(_ newLabel: String) {
         label = newLabel
         
         _drawAttributes.removeAll()
