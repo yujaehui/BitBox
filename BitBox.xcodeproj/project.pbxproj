@@ -65,6 +65,7 @@
 		095AFA7B2D55FD760078FD15 /* TrendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA7A2D55FD760078FD15 /* TrendViewController.swift */; };
 		095AFA7D2D55FD8C0078FD15 /* TrendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA7C2D55FD8C0078FD15 /* TrendViewModel.swift */; };
 		095AFA802D5600B90078FD15 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA7F2D5600B90078FD15 /* UserViewController.swift */; };
+		095AFA822D56057C0078FD15 /* CustomBalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AFA812D56057C0078FD15 /* CustomBalloonMarker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -121,6 +122,7 @@
 		095AFA7A2D55FD760078FD15 /* TrendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewController.swift; sourceTree = "<group>"; };
 		095AFA7C2D55FD8C0078FD15 /* TrendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewModel.swift; sourceTree = "<group>"; };
 		095AFA7F2D5600B90078FD15 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		095AFA812D56057C0078FD15 /* CustomBalloonMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBalloonMarker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +251,7 @@
 			children = (
 				095AFA372D55E64F0078FD15 /* CustomLabel.swift */,
 				095AFA392D55E73C0078FD15 /* CustomCircleMarker.swift */,
+				095AFA812D56057C0078FD15 /* CustomBalloonMarker.swift */,
 				095AFA3B2D55E7680078FD15 /* CustomChartView.swift */,
 			);
 			path = Custom;
@@ -466,6 +469,7 @@
 				095AFA482D55E8EE0078FD15 /* SearchViewModel.swift in Sources */,
 				095AFA522D55EFB60078FD15 /* MarketViewController.swift in Sources */,
 				095AFA6D2D55FB4D0078FD15 /* Top7Section.swift in Sources */,
+				095AFA822D56057C0078FD15 /* CustomBalloonMarker.swift in Sources */,
 				095AFA542D55EFEE0078FD15 /* MarketViewModel.swift in Sources */,
 				095AFA4D2D55E9810078FD15 /* TextProcessingManager.swift in Sources */,
 				095AFA4A2D55E9020078FD15 /* SearchTableViewCell.swift in Sources */,

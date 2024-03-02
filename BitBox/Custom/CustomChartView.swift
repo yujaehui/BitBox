@@ -46,7 +46,7 @@ class CustomChartView: LineChartView {
         leftAxis.enabled = false
         rightAxis.enabled = false
         legend.enabled = false
-        let circleMarker = CustomCircleMarker()
-        marker = circleMarker
+        let balloonMarker = CustomBalloonMarker(color: ColorStyle.purple, font: FontStyle.primary, textColor: ColorStyle.white, insets: UIEdgeInsets(top: 8, left: 8, bottom: 16, right: 8))
+        marker = balloonMarker
     }
 }
