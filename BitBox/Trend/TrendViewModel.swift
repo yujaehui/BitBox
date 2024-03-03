@@ -56,7 +56,7 @@ final class TrendViewModel {
         
         let favoriteIds = outputFavoriteCoinList.value.map { $0.id }.joined(separator: ", ")
         
-        // 캐시 확인 (O(1) 조회) + 만료 시간 체크
+        // 캐시 확인 + 만료 시간 체크
         let now = Date()
         if let cacheEntry = cache.object(forKey: favoriteIds as NSString), now < cacheEntry.expirationDate {
             print("🔄 캐시에서 불러옴")
@@ -65,18 +65,16 @@ final class TrendViewModel {
         }
 
         // 네트워크 요청 조건 확인
-        if outputFavoriteCoinList.value.count != value.count {
-            if !outputFavoriteCoinList.value.isEmpty {
-                print("🌐 네트워크 요청 진행: \(favoriteIds)")
-                marketCallRequest(ids: favoriteIds)
-            } else {
-                print("❌ Market 리스트 초기화")
-                outputMarketCoinList.value.removeAll()
-            }
+        if !outputFavoriteCoinList.value.isEmpty {
+            print("🌐 네트워크 요청 진행: \(favoriteIds)")
+            marketCallRequest(ids: favoriteIds)
+        } else {
+            print("❌ Market 리스트 초기화")
+            outputMarketCoinList.value.removeAll()
         }
     }
     
-    // My Favorite 섹션 API 요청 (Write-Through 캐싱 적용)
+    // My Favorite 섹션 API 요청
     private func marketCallRequest(ids: String) {
         let cacheKey = ids as NSString
         let now = Date()
