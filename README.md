@@ -47,6 +47,7 @@
 - **UIKit**: iOS 사용자 인터페이스 구현
 - **SnapKit**: 간결한 Auto Layout 코드 작성
 - **Codebase UI**: 코드 기반으로 UI를 설계하여 Storyboard 의존성 제거
+- **ComposableLayout**: UICollectionView 레이아웃 설계
 
 ### **비동기 처리 및 데이터 관리**
 
